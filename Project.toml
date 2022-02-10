@@ -1,0 +1,4 @@
+name = "LSTMt2v"
+uuid = "a083f8de-12e6-4d88-af22-6d514bf799bd"
+authors = ["C Walker <38321335+cjw199@users.noreply.github.com>"]
+version = "0.1.0"
