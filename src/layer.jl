@@ -36,7 +36,7 @@ function LSTMt2vCell(in::Integer, out::Integer, k::Integer, ℱ = sin;
     return cell
 end
 
-# input data is a tuple of scalar time and feature vector
+# input datum is a tuple of scalar time and feature vector
 function (m::LSTMt2vCell{A,T2,V,S})((h, c), data::Tuple{T, VecOrMat{T}}) where {A,V,T2,S,T}
     t, x = data
     τ = m.t2v(t)
