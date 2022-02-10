@@ -7,7 +7,7 @@ struct T2V{V,F}
     ℱ::F
 end
 
-function T2V(k, ℱ = sin, init = glorot_uniform, initb = zeros32)
+function T2V(k::Integer, ℱ = sin, init = glorot_uniform, initb = zeros32)
     T2V(init(k), initb(k), ℱ)
 end
 
